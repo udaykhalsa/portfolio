@@ -96,7 +96,7 @@ body{
 .whatCan {
     text-align: center;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: darkgray;
 }
 
@@ -104,6 +104,7 @@ body{
     display: flex;
     justify-content: space-around;
     padding-bottom: 30px;
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
 }
 
 .whatCanImg img {
@@ -150,8 +151,7 @@ body{
 .section-two img {
     height: 60px;
     width: 60px;
-    /* color: lightgray; */
-    /* filter: invert(63%) sepia(11%) saturate(936%) hue-rotate(164deg) brightness(95%) contrast(91%); */
+    filter: invert(100%) sepia(74%) saturate(16%) hue-rotate(77deg) brightness(111%) contrast(92%);
 }
 
 
@@ -160,14 +160,14 @@ body{
     height: 400px;
 }
 
+.section-three h1 {
+    color: #f5f5f5;
+}
+
 .quicktimetableImg {
     width: 200px;
     height: 200px;
 }
-
-/* .quicktimetableImg:hover {
-    filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(88%) contrast(95%);
-} */
 
 .quicktimetable {
     display: flex;
