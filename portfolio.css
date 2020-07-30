@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.firstImg, .secondImg, .thirdImg, .fourthImg{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.firstImg{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i.imgur.com/JDsyqdo.jpg');
+}
+
+
+.secondImg{
+    height: 400px;
+    width: 100%;
+    opacity: 0.75;
+    background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
+}
+
+.thirdImg {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://i.imgur.com/gngxOaf.jpg');
+    opacity: 0.75;
+}
+
+.fourthImg {
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+    color: lightgray;
+    background-color: black;
+}
+
+.cat {
+
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.intro .introBorder {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+
+.section{
+    padding: 50px 80px;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.section-one {
+    height: 520px;
+    background-image: linear-gradient(#0e4d92, #001738);
+    color: azure;
+}
+
+.lolImg {
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
+}
+
+.section-one p {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.whatCan {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: darkgray;
+}
+
+.whatCanImg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.whatCanImg img {
+    height: 100px;
+    padding: 30px;
+}
+
+.resume {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 30px;
+    padding: 15px;
+    border: solid 1px black;
+    border-radius: 50px;
+}
+
+.resume:hover {
+    border-color: azure;
+    border-radius: 40px;
+    background-color: azure;
+    color: black;
+    transition: 0.7s;
+}
+
+
+.section-two {
+    background-image: linear-gradient(#001738,#567a9b);
+    height: 300px;
+}
+
+.section-two p{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.section-two h1 {
+    color: lightgray;
+    /* background: -webkit-linear-gradient(#eee, #001738); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.section-two img {
+    height: 60px;
+    width: 60px;
+    /* color: lightgray; */
+    /* filter: invert(63%) sepia(11%) saturate(936%) hue-rotate(164deg) brightness(95%) contrast(91%); */
+}
+
+
+.section-three {
+    background-image: linear-gradient(#5e6b7e, black);
+    height: 400px;
+}
+
+.quicktimetableImg {
+    width: 200px;
+    height: 200px;
+}
+
+/* .quicktimetableImg:hover {
+    filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(88%) contrast(95%);
+} */
+
+.quicktimetable {
+    display: flex;
+}
+
+.quicktimetableText{
+    padding: 30px;
+}
+
+.quicktimetableTitle {
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.quicktimetableTitle:hover {
+    color: grey;
+}
+
+.quicktimetableDes {
+    font-size: 25px;
+    color: grey;
+}
+
+
+.linkImg {
+    height: 23px;
+    width: 23px;
+}
+
+.hireMe p{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hireMe h2{
+    text-align: center;
+}
+
+
+.hireMe img {
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
+    width: 50px;
+    height: 50px;
+}
+
+
+.hireCat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
