@@ -60,6 +60,25 @@ body{
     text-transform: capitalize;
 }
 
+
+/* .introWord {
+    display: inline-block;
+} */
+
+/* .introWord:hover span {
+    position: absolute;
+    overflow: hidden;
+    animation: animate 10s liner infinite;
+}
+@keyframes animate {
+    0%
+    {
+        opacity: 0;
+        transform: translate(-50px);
+    }
+} */
+
+
 .intro .introBorder {
     background-color: black;
     color: white;
