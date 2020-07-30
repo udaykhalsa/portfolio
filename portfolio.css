@@ -182,16 +182,24 @@ body{
 }
 
 
-.technologies img:hover {
+/* .technologies img:hover { */
+    /* cursor: pointer; */
+    /* height: 65px; */
+    /* width: 65px; */
+    /* transition: 0.2s; */
+    /* filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%); */
+/* } */
+
+.python p {
+    visibility: hidden;
+}
+
+.python:hover img{
     cursor: pointer;
     height: 65px;
     width: 65px;
     transition: 0.2s;
     filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
-}
-
-.python p {
-    visibility: hidden;
 }
 
 .python img:hover {
@@ -208,6 +216,14 @@ body{
     visibility: hidden;
 }
 
+.django:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .django img:hover {
     cursor: pythonpointer;
 }
@@ -222,6 +238,14 @@ body{
     visibility: hidden;
 }
 
+.unix:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .unix img:hover {
     cursor: pythonpointer;
 }
@@ -234,6 +258,14 @@ body{
 
 .rest p {
     visibility: hidden;
+}
+
+.rest:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
 }
 
 .rest img:hover {
@@ -251,6 +283,14 @@ body{
     visibility: hidden;
 }
 
+.html:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .html img:hover {
     cursor: pythonpointer;
 }
@@ -263,6 +303,14 @@ body{
 
 .css p {
     visibility: hidden;
+}
+
+.css:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
 }
 
 .css img:hover {
@@ -279,6 +327,14 @@ body{
     visibility: hidden;
 }
 
+.js:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .js img:hover {
     cursor: pythonpointer;
 }
@@ -291,6 +347,14 @@ body{
 
 .flutter p {
     visibility: hidden;
+}
+
+.flutter:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
 }
 
 .flutter img:hover {
@@ -307,6 +371,14 @@ body{
     visibility: hidden;
 }
 
+.git:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .git img:hover {
     cursor: pythonpointer;
 }
@@ -319,6 +391,14 @@ body{
 
 .postsql p {
     visibility: hidden;
+}
+
+.postsql:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
 }
 
 .postsql img:hover {
@@ -335,6 +415,14 @@ body{
     visibility: hidden;
 }
 
+.sql:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
 .sql img:hover {
     cursor: pythonpointer;
 }
@@ -347,6 +435,14 @@ body{
 
 .golang p {
     visibility: hidden;
+}
+
+.golang:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
 }
 
 .golang img:hover {
