@@ -470,6 +470,13 @@ body{
     height: 200px;
 }
 
+/* .quicktimetableImg:hover {
+    cursor: quicktimetablecursor;
+    width: 210px;
+    height: 210px;
+    transition: 0.5s;
+} */
+
 .quicktimetable {
     display: flex;
 }
@@ -521,6 +528,11 @@ body{
     height: 50px;
 }
 
+.hireMe img:hover {
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+}
 
 .hireCat {
     position: absolute;
