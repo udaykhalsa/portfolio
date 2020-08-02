@@ -389,50 +389,6 @@ body{
     transition: 0.5s;
 }
 
-.postsql p {
-    visibility: hidden;
-}
-
-.postsql:hover img{
-    cursor: pointer;
-    height: 65px;
-    width: 65px;
-    transition: 0.2s;
-    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
-}
-
-.postsql img:hover {
-    cursor: pythonpointer;
-}
-
-.postsql:hover p {
-    cursor: pythonpointer;
-    visibility: visible;
-    transition: 0.5s;
-}
-
-.sql p {
-    visibility: hidden;
-}
-
-.sql:hover img{
-    cursor: pointer;
-    height: 65px;
-    width: 65px;
-    transition: 0.2s;
-    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
-}
-
-.sql img:hover {
-    cursor: pythonpointer;
-}
-
-.sql:hover p {
-    cursor: pythonpointer;
-    visibility: visible;
-    transition: 0.5s;
-}
-
 .golang p {
     visibility: hidden;
 }
