@@ -551,6 +551,10 @@ body{
         height: 70px;
         padding: 30px;
     }    
+
+    .resume {
+        font-size: 20px;
+    }
 }
 
 
