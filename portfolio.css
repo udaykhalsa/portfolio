@@ -150,7 +150,7 @@ body{
 
 .section-two {
     background-image: linear-gradient(#001738,#567a9b);
-    height: 300px;
+    height: auto;
 }
 
 .section-two p{
@@ -540,7 +540,17 @@ body{
         background-color: black;
     }
 
-    
+    .whatCan {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        color: darkgray;
+    }
+
+    .whatCanImg img {
+        height: 70px;
+        padding: 30px;
+    }    
 }
 
 
