@@ -5,7 +5,7 @@
         url('fonts/@font-face/LinotteFont.ttf') format('ttf');
 }
 
-body{
+body{   
     margin: 0;
     padding: 0;
     font-family: linotte;
@@ -494,4 +494,16 @@ body{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+
+/*@media (min-width: 551px) and (max-width: 768px){
+    .
+}*/
+
+
+@media (max-width: 550px){
+    .intor{
+        font-size: 60px;
+    }   
 }
