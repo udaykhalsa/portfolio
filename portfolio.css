@@ -130,6 +130,10 @@ body{
     padding: 30px;
 }
 
+.whatCanImg:hover{
+    background-image: url('https://i.imgur.com/MbFtrM7.png');
+}
+
 .resume {
     text-decoration: none;
     color: ghostwhite;
@@ -447,6 +451,7 @@ body{
     font-size: 30px;
     letter-spacing: 5px;
     line-height: 100px;
+    transition: 0.5s;
 }
 
 .quicktimetableTitle:hover {
