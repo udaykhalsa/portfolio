@@ -60,24 +60,6 @@ body{
     text-transform: capitalize;
 }
 
-/* .introWord {
-    display: inline-block;
-} */
-
-/* .introWord:hover span {
-    position: absolute;
-    overflow: hidden;
-    animation: animate 10s liner infinite;
-}
-@keyframes animate {
-    0%
-    {
-        opacity: 0;
-        transform: translate(-50px);
-    }
-} */
-
-
 .intro .introBorder {
     background-color: black;
     color: white;
@@ -130,10 +112,6 @@ body{
     padding: 30px;
 }
 
-.whatCanImg:hover{
-    background-image: url('https://i.imgur.com/MbFtrM7.png');
-}
-
 .resume {
     text-decoration: none;
     color: ghostwhite;
@@ -184,15 +162,6 @@ body{
 .technologies p {
     color: whitesmoke;
 }
-
-
-/* .technologies img:hover { */
-    /* cursor: pointer; */
-    /* height: 65px; */
-    /* width: 65px; */
-    /* transition: 0.2s; */
-    /* filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%); */
-/* } */
 
 .python p {
     visibility: hidden;
@@ -418,26 +387,23 @@ body{
 
 .section-three {
     background-image: linear-gradient(#5e6b7e, black);
-    height: 400px;
+    height: auto;
 }
 
 .section-three h1 {
     color: #f5f5f5;
 }
 
-.quicktimetableImg {
+.projectSections {
+    padding: 50px 0px;
+}
+
+.projectsImg {
     width: 200px;
     height: 200px;
 }
 
-/* .quicktimetableImg:hover {
-    cursor: quicktimetablecursor;
-    width: 210px;
-    height: 210px;
-    transition: 0.5s;
-} */
-
-.quicktimetable {
+.capNgo, .quicktimetable {
     display: flex;
 }
 
@@ -466,6 +432,16 @@ body{
     color: grey;
 }
 
+
+.capNgoImg {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(310deg) brightness(105%) contrast(101%);
+    transition: 0.5s;
+}
+
+
+.capNgoImg:hover {
+    filter: invert(56%) sepia(1%) saturate(121%) hue-rotate(314deg) brightness(89%) contrast(84%);
+}
 
 .linkImg {
     height: 23px;
@@ -507,7 +483,7 @@ body{
 }*/
 
 
-@media (max-width: 550px){
+@media (max-width: 767px){
 
     .firstImg, .secondImg, .thirdImg, .fourthImg{
         position: relative;
