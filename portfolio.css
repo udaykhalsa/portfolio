@@ -8,7 +8,7 @@
 body{   
     margin: 0;
     padding: 0;
-    font-family: linotte;
+    font-family: Linotte-Regular;
 }
 
 .firstImg, .secondImg, .thirdImg, .fourthImg{
@@ -60,6 +60,7 @@ body{
     text-transform: capitalize;
 }
 
+
 .intro .introBorder {
     background-color: black;
     color: white;
@@ -67,6 +68,45 @@ body{
     opacity: 0.5;
     border-radius: 50px;
 }
+
+
+.s-wrap {
+  width: min-content;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Unica One';
+}
+
+.s-move {
+  display: flex;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.slide {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  flex-shrink: 0; 
+}
+
+@keyframes slideh {
+  0% { right: 0; }
+  15% { right: 0; }
+  20% { right: 100%; }
+  35% { right: 100%; }
+  40% { right: 200%; }
+  55% { right: 200%; }
+  60% { right: 300%; }
+  75% { right: 300%; }
+  80% { right: 400%; }
+  95% { right: 400%; }
+  100% { right: 0; }
+}
+.s-move { animation: slideh linear 10s infinite; }
+.s-move:hover { animation-play-state: paused; }
 
 .section{
     padding: 50px 80px;
@@ -107,13 +147,13 @@ body{
     filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
 }
 
-.whatCanImg img {
+/*.whatCanImg img {
     height: 100px;
     padding: 30px;
 }
-
+*/
 .resume {
-    text-decoration: none;
+    text-decoration: none !important;
     color: ghostwhite;
     font-size: 30px;
     padding: 15px;
@@ -579,5 +619,3 @@ body{
        width: 120px; 
     }
 }
-
-
