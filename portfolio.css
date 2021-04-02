@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'linotte';
-    src: url('fonts/@font-face/LinotteFont.woff') format('woff'),
-        url('fonts/@font-face/LinotteFont.woff2') format('woff2'),
-        url('fonts/@font-face/LinotteFont.ttf') format('ttf');
+    src: url('fonts/@font-face/LinotteFont.ttf') format('ttf'), 
+        url('fonts/@font-face/LinotteFont.woff') format('woff'),
+        url('fonts/@font-face/LinotteFont.woff2') format('woff2');
 }
 
 body{   
