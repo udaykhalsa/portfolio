@@ -1,0 +1,612 @@
+@font-face {
+    font-family: 'linotte';
+    src: url('fonts/@font-face/LinotteFont.ttf') format('ttf'), 
+        url('fonts/@font-face/LinotteFont.woff') format('woff'),
+        url('fonts/@font-face/LinotteFont.woff2') format('woff2');
+}
+
+body{   
+    margin: 0;
+    padding: 0;
+}
+
+.firstImg, .secondImg, .thirdImg, .fourthImg{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: linotte;
+}
+
+
+.firstImg{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i.imgur.com/JDsyqdo.jpg');
+}
+
+
+.secondImg{
+    height: 400px;
+    width: 100%;
+    opacity: 0.75;
+    background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
+}
+
+.thirdImg {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://i.imgur.com/gngxOaf.jpg');
+    opacity: 0.75;
+}
+
+.fourthImg {
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+    color: lightgray;
+    background-color: black;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+
+.intro .introBorder {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+
+
+.s-wrap {
+  width: min-content;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  align-items: center;
+  font-family: 'Unica One';
+}
+
+.s-move {
+  display: flex;
+  position: relative;
+}
+
+.slide {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  flex-shrink: 0;   
+}
+
+@keyframes slideh {
+  0% { right: 0; }
+  15% { right: 0; }
+  20% { right: 100%; }
+  35% { right: 100%; }
+  40% { right: 200%; }
+  55% { right: 200%; }
+  60% { right: 300%; }
+  75% { right: 300%; }
+  80% { right: 400%; }
+  95% { right: 400%; }
+  100% { right: 0; }
+}
+.s-move { animation: slideh linear 10s infinite; }
+.s-move:hover { animation-play-state: paused; }
+
+.section{
+    padding: 50px 80px;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.section-one {
+    height: auto;
+    background-image: linear-gradient(#0e4d92, #001738);
+    color: azure;
+    font-family: linotte;
+}
+
+.lolImg {
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
+}
+
+.section-one p {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.whatCan {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: darkgray;
+}
+
+.whatCanImg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
+}
+
+/*.whatCanImg img {
+    height: 100px;
+    padding: 30px;
+}
+*/
+.resume {
+    text-decoration: none !important;
+    color: ghostwhite;
+    font-size: 30px;
+    padding: 15px;
+    border: solid 1px black;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.resume:hover {
+    border-color: azure;
+    border-radius: 40px;
+    background-color: azure;
+    color: black;
+}
+
+
+.section-two {
+    background-image: linear-gradient(#001738,#567a9b);
+    height: auto;
+}
+
+.section-two p{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-family: linotte;
+}
+
+.section-two h1 {
+    color: lightgray;
+}
+
+.technologies img {
+    height: 60px;
+    width: 60px;
+    filter: invert(100%) sepia(74%) saturate(16%) hue-rotate(77deg) brightness(111%) contrast(92%);
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: lightgrey;
+    font-display: hidden;
+}
+
+.technologies p {
+    color: whitesmoke;
+}
+
+.python p {
+    visibility: hidden;
+}
+
+.python:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.python img:hover {
+    cursor: pythonpointer;
+}
+
+.python:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.django p {
+    visibility: hidden;
+}
+
+.django:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.django img:hover {
+    cursor: pythonpointer;
+}
+
+.django:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.unix p {
+    visibility: hidden;
+}
+
+.unix:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.unix img:hover {
+    cursor: pythonpointer;
+}
+
+.unix:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.rest p {
+    visibility: hidden;
+}
+
+.rest:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.rest img:hover {
+    cursor: pythonpointer;
+}
+
+.rest:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+
+.html p {
+    visibility: hidden;
+}
+
+.html:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.html img:hover {
+    cursor: pythonpointer;
+}
+
+.html:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.css p {
+    visibility: hidden;
+}
+
+.css:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.css img:hover {
+    cursor: pythonpointer;
+}
+
+.css:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.js p {
+    visibility: hidden;
+}
+
+.js:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.js img:hover {
+    cursor: pythonpointer;
+}
+
+.js:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.flutter p {
+    visibility: hidden;
+}
+
+.flutter:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.flutter img:hover {
+    cursor: pythonpointer;
+}
+
+.flutter:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.git p {
+    visibility: hidden;
+}
+
+.git:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.git img:hover {
+    cursor: pythonpointer;
+}
+
+
+.section-three {
+    background-image: linear-gradient(#5e6b7e, black);
+    height: auto;
+    font-family: linotte;
+}
+
+.section-three h1 {
+    color: #f5f5f5;
+}
+
+.projectSections {
+    padding: 50px 0px;
+}
+
+.projectsImg {
+    width: 200px;
+    height: 200px;
+}
+
+.capNgo, .quicktimetable {
+    display: flex;
+}
+
+.quicktimetableText{
+    padding: 30px;
+}
+
+.quicktimetableTitle {
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    transition: 0.5s;
+}
+
+.quicktimetableTitle:hover {
+    color: grey;
+    font-size: 33px;
+    letter-spacing: 5.5px;
+    transition: 0.5s;
+}
+
+.quicktimetableDes {
+    font-size: 25px;
+    color: grey;
+}
+
+
+.capNgoImg {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(310deg) brightness(105%) contrast(101%);
+    transition: 0.5s;
+}
+
+
+/*.capNgoImg:hover {
+    filter: invert(56%) sepia(1%) saturate(121%) hue-rotate(314deg) brightness(89%) contrast(84%);
+}*/
+
+.linkImg {
+    height: 23px;
+    width: 23px;
+}
+
+.hireMe p{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hireMe h2{
+    text-align: center;
+}
+
+
+.hireMe img {
+    filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+
+}
+
+.hireMe img:hover {
+    width: 65px;
+    height: 65px;
+}
+
+.hireCat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/*@media (min-width: 551px) and (max-width: 768px){
+    .
+}*/
+
+
+@media (max-width: 767px){
+
+    .firstImg, .secondImg, .thirdImg, .fourthImg{
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .firstImg{
+        height: 100%;
+        max-width: 100%;
+        background-image: url('https://i.imgur.com/JDsyqdo.jpg');
+    }
+
+    .secondImg{
+        height: 400px;
+        max-width: 100%;
+        opacity: 0.75;
+        background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
+    }
+    
+    .thirdImg {
+        max-width: 100%;
+        height: 400px;
+        background-image: url('https://i.imgur.com/gngxOaf.jpg');
+        opacity: 0.75;
+    }
+    
+    .fourthImg {
+        max-width: 100%;
+        height: 300px;
+        padding: 50px 0px;
+        color: lightgray;
+        background-color: black;
+    }
+
+    .s-wrap {
+      width: 100%;
+    }
+
+    .whatCan {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        color: darkgray;
+    }
+
+    .whatCanImg {
+        font-size: 18px;
+    }
+
+    .whatCanImg img {
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+    }    
+
+    .resume {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .technologies {
+        display: grid;
+        line-height: 1em;
+        font-size: 15px;
+    }
+
+    .projects {
+        margin-left: -50px;
+    }
+
+    .projectsImg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .projectSections {
+        font-size: 20px;
+    }
+
+    .quicktimetableText {
+        padding: 10px;
+    }
+
+    .quicktimetableText img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .quicktimetableTitle {
+        font-size: 27px;
+        line-height: 1em;
+    }
+
+    .quicktimetableDes {
+        font-size: 22px;
+    }
+
+    .quicktimetableTitle:hover{
+        font-size: 27px;
+        transition: none;
+    }
+
+
+    .hireCat {
+       height: 150px;
+       width: 120px; 
+    }
+}
