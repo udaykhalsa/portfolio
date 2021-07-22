@@ -147,11 +147,11 @@ body{
     filter: invert(100%) sepia(7%) saturate(986%) hue-rotate(195deg) brightness(110%) contrast(65%);
 }
 
-/*.whatCanImg img {
-    height: 100px;
-    padding: 30px;
+.whatCanImg img {
+    height: 135px;
+    padding-top: 30px;
 }
-*/
+
 .resume {
     text-decoration: none !important;
     color: ghostwhite;
