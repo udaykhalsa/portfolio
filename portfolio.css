@@ -270,6 +270,28 @@ body{
     transition: 0.5s;
 }
 
+.rpa p {
+    visibility: hidden;
+}
+
+.rpa:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.rpa img:hover {
+    cursor: pythonpointer;
+}
+
+.rpa:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
 .rest p {
     visibility: hidden;
 }
@@ -291,6 +313,32 @@ body{
     visibility: visible;
     transition: 0.5s;
 }
+
+
+.docker p {
+    visibility: hidden;
+}
+
+.docker:hover img{
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    transition: 0.2s;
+    filter: invert(87%) sepia(0%) saturate(13%) hue-rotate(59deg) brightness(98%) contrast(95%);
+}
+
+.docker img:hover {
+    cursor: pythonpointer;
+}
+
+.docker:hover p {
+    cursor: pythonpointer;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+
+
 
 
 .html p {
