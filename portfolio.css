@@ -27,6 +27,12 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
 * {
   font-family: linotte;
 }
