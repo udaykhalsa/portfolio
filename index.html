@@ -1,31 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uday Singh Khalsa</title>
-    <link rel="icon" type="image/png" href="img/cat.png" sizes="36x36">
+    <link rel="icon" type="image/png" href="img/cat.png" sizes="36x36" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Unica One' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body>
     <section class="topContainerSection">
         <div class="firstImg">
-            <div class="intro">
-                <span class="introBorder">Uday Singh Khalsa</span>
+            <div class='intro'>
+                <span class="introBorder">
+                    Uday Singh Khalsa
+                </span>
                 <div class="s-wrap">
                     <div class="s-move">
-                        <div class="slide"><h3>A Student</h3></div>
-                        <div class="slide"><h3>A Developer</h3></div>
-                        <div class="slide"><h3>A Dreamer</h3></div>
-                        <div class="slide"><h3>A Keyboard Cracker</h3></div>
-                        <div class="slide"><h3>A Gamer</h3></div>
-                        <div class="slide"><h3>A Student</h3></div> <!-- Duplicate slide for seamless transition -->
+                        <div class="slide">
+                            <h3>A Student</h3>
+                        </div>
+                        <div class="slide">
+                            <h3>A Developer</h3>
+                        </div>
+                        <div class="slide">
+                            <h3>A Dreamer</h3>
+                        </div>
+                        <div class="slide">
+                            <h3>A Keyboard Cracker</h3>
+                        </div>
+                        <div class="slide">
+                            <h3>A Gamer</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,68 +71,146 @@
         </div>
     </section>
 
-    <div class="secondImg"></div>
+    <div class="secondImg">
+    </div>
 
-    <section class="section section-two">
+
+    <section class="section section-two ">
         <h1 class="pt-3">Technologies I'm at my best at</h1>
-        <div class="technologies d-flex flex-wrap justify-content-around mt-5 pt-5">
+        <div class="technologies d-lg-flex d-md-flex justify-content-around mt-5 pt-5">
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/python.png"><span>Python</span>
+                <img src="https://img.icons8.com/ios/50/000000/python.png">
+                <span>Python</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/windows/64/1A1A1A/django.png"><span>Django/<br>Django REST</span>
+                <img src="https://img.icons8.com/windows/64/1A1A1A/django.png">
+                <span>Django/<br>
+                    Django REST</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/wired/64/000000/linux.png"><span>Unix/<br>Linux</span>
+                <img src="https://img.icons8.com/wired/64/000000/linux.png">
+                <span>Unix/<br>
+                    Linux</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/api.png"><span>REST API</span>
+                <img src="https://img.icons8.com/ios/50/000000/api.png">
+                <span>REST Api</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/docker.png"><span>Docker</span>
+                <img src="https://img.icons8.com/ios/50/000000/docker.png">
+                <span>Docker</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/flutter.png"><span>Flutter</span>
+                <img src="https://img.icons8.com/ios/50/000000/flutter.png">
+                <span>Flutter</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/git.png"><span>Git</span>
+                <img src="https://img.icons8.com/ios/50/000000/git.png">
+                <span>Git</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/html-5.png"><span>HTML</span>
+                <img src="https://img.icons8.com/ios/50/000000/html-5.png">
+                <span>HTML</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/css3.png"><span>CSS</span>
+                <img src="https://img.icons8.com/ios/50/000000/css3.png">
+                <span>CSS</span>
             </div>
             <div class="tech">
-                <img src="https://img.icons8.com/ios/50/000000/javascript-logo.png"><span>JavaScript</span>
+                <img src="https://img.icons8.com/ios/50/000000/javascript-logo.png">
+                <span>Javascript</span>
             </div>
         </div>
     </section>
 
-    <div class="thirdImg"></div>
+    <div class="thirdImg">
+    </div>
+
 
     <section class="section section-three">
         <h1 class="pt-3">Take a look at my work</h1>
-        <div class="projects d-flex flex-wrap justify-content-around">
-            <div class="project" data-title="Django Flutter Chat App (Github Repo 45+ stars)" data-desc="An application created using Django Rest Framework for the backend, incorporating web sockets, and utilizing Flutter for the frontend." data-link="https://github.com/udaykhalsa/flutter-django-chat-app" data-img="img/chatting-icon.png"></div>
-            <div class="project" data-title="Geek Cap" data-desc="Website for tech blogs which I post. Made using Django Framework." data-link="https://udaykhalsa.pythonanywhere.com/" data-img="img/geek-cap-logo.png"></div>
-            <div class="project" data-title="Citizens for Animal Protection (Currently Unavailable)" data-desc="Website for Citizens for Animal Protection NGO. Made using Django Framework." data-link="#" data-img="img/cap-logo.png"></div>
+        <div class="projects">
+            <div class="d-lg-flex justify-content-start">
+                <img src="img/chatting-icon.png" alt="" style="width: 230px !important; height: 230px !important;" class="img-fluid projectsImg">
+                <div class="projectSections d-lg-flex align-items-center flex-wrap">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/udaykhalsa/flutter-django-chat-app" target="__blank"
+                                class="quicktimetableTitle">
+                                <span>Django Flutter Chat App (<u>Github Repo 45+ stars</u>)</span>
+                            </a>
+                            <img src="https://img.icons8.com/windows/32/000000/link.png" class="linkImg">
+                        </li>
+                        <li>
+                            <span class="quicktimetableDes">
+                                
+An application created using Django Rest Framework for the backend, incorporating web sockets, and utilizing Flutter for the frontend.
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="d-lg-flex justify-content-start">
+                <img src="img/geek-cap-logo.png" alt="" class="img-fluid projectsImg">
+                <div class="projectSections d-lg-flex align-items-center flex-wrap">
+                    <ul>
+                        <li>
+                            <a href="https://udaykhalsa.pythonanywhere.com/" target="__blank"
+                                class="quicktimetableTitle">
+                                <span>Geek Cap</span>
+                            </a>
+                            <img src="https://img.icons8.com/windows/32/000000/link.png" class="linkImg">
+                        </li>
+                        <li>
+                            <span class="quicktimetableDes">
+                                Website for tech blogs which I post. Made using Django Framework.
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="d-lg-flex justify-content-start pt-5 mt-5">
+                <img src="img/cap-logo.png" alt="" class="img-fluid projectsImg">
+                <div class="projectSections d-lg-flex align-items-center flex-wrap">
+                    <ul>
+                        <li>
+                            <a href="#" target="__blank"
+                                class="quicktimetableTitle">
+                                <span>Citizens for Animal Protection <small>(Currently Unavailable)</small></span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="quicktimetableDes">
+                                Website for Citizens for Animal Protection NGO. Made using Django Framework.
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <div class="fourthImg">
         <img src="https://i.imgur.com/lfwz2ER.jpg" class="hireCat">
         <div class="hireMe">
             <h2>Get in Touch</h2>
             <div class="d-flex align-items-center justify-content-around mt-5">
-                <a href="https://github.com/udaykhalsa" target="__blank"><img src="https://img.icons8.com/ios/50/000000/github.png"></a>
-                <a href="https://www.linkedin.com/in/uday-singh-khalsa-761848196/" target="__blank"><img src="https://img.icons8.com/windows/32/000000/linkedin.png"></a>
-                <a href="mailto:udaykhalsa@gmail.com"><img src="https://img.icons8.com/ios/50/000000/gmail.png"></a>
+                <a href="https://github.com/udaykhalsa" target="__blank">
+                    <img src="https://img.icons8.com/ios/50/000000/github.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/uday-singh-khalsa-761848196/" target="__blank">
+                    <img src="https://img.icons8.com/windows/32/000000/linkedin.png" />
+                </a>
+                <a href="mailto:udaykhalsa@gmail.com">
+                    <img src="https://img.icons8.com/ios/50/000000/gmail.png" />
+                </a>
             </div>
         </div>
-    </div>
-
-    <script src="portfolio.js"></script>
 </body>
 
 </html>
