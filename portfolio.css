@@ -129,28 +129,9 @@ body {
 }
 
 .title-slider {
-  width: min-content;
-  height: 200px;
-  margin: 0 auto;
-  overflow: hidden;
+  min-height: 50px;
   font-family: "Unica One", sans-serif;
-}
-
-.slider-track {
-  display: flex;
-  position: relative;
-  animation: slideh linear 10s infinite;
-}
-
-.slider-track:hover {
-  animation-play-state: paused;
-}
-
-.slide {
-  box-sizing: border-box;
-  padding: 20px;
-  width: 100%;
-  flex-shrink: 0;
+  height: 200px;
   color: #888888;
 }
 
